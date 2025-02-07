@@ -5,11 +5,11 @@
 
 }
 html{   
-    max-width: 1920px;
+    max-width: 1880px;
     margin: 0 auto;
 }
 body{
-    width: 1920px;
+    width: 1880px;
     margin: 0 auto;
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
