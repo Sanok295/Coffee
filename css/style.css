@@ -9,6 +9,7 @@ html{
     margin: 0 auto;
 }
 body{
+    width: 80%;
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
