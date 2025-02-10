@@ -4,18 +4,33 @@
     --red-gray: rgb(206, 173, 173);
 
 }
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: local('Comic Sans MS-Medium'),
+    url('../font/ComicSansMS.woff2') format('woff2'),
+    url('../font/ComicSansMS-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 html{   
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
+    scroll-behavior: smooth;       /*Плавная прокрутка*/
+    box-sizing: border-box;
+    font-size: 18px;
+    background-image: url(../img/background-2.png);
+    background-size: cover;
+    
 }
 body{
-    width: 1920px;
+    background-size: cover;
     margin: 0 auto;
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: center;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     font-size: 24px;
     font-weight: 500;
     color: var(--white);
